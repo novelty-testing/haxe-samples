@@ -1,0 +1,23 @@
+# Build haxe-samples project
+
+# Output in Java
+# Set context directory
+-cp src/main/haxe
+-main fr.inria.diverse.noveltytesting.samples.Main
+-java haxe-generated/java
+
+--next
+
+# Output in Javascript
+# Set context directory
+-cp src/main/haxe
+-main fr.inria.diverse.noveltytesting.samples.Main
+-js haxe-generated/js/Main.js
+
+--next
+
+# Output in C++
+# Set context directory
+-cp src/main/haxe
+-main fr.inria.diverse.noveltytesting.samples.Main
+-cpp haxe-generated/cpp

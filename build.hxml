@@ -13,6 +13,7 @@
 -cp src/main/haxe
 -main fr.inria.diverse.noveltytesting.samples.Main
 -js haxe-generated/js/Main.js
+-D js-classic
 
 --next
 
